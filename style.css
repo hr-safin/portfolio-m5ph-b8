@@ -25,6 +25,9 @@ body {
   font-size: 35px;
   font-weight: 700;
 }
+#common {
+  padding-top: 40px;
+}
 /* Nav styling */
 
 nav {
@@ -105,12 +108,12 @@ nav li a {
 
 /* About section */
 
-main{
-    width: 1140px;
-    margin: 0 auto;
+main {
+  width: 1140px;
+  margin: 0 auto;
 }
 
-.about{
+.about {
   background-color: #fff8f3;
   margin: 130px 0px;
   padding: 130px;
@@ -123,28 +126,83 @@ main{
   font-size: 15px;
 }
 
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.info{
-    text-align: center;
-}
-
-.info-title{
-    color: #757575;
+.info {
+  text-align: center;
 }
 
-.info-disc{
-    color: #181818;
+.info-title {
+  color: #757575;
+}
+
+.info-disc {
+  color: #181818;
 }
 
 /* skill  */
 
-#skill-d{
-    padding: 10px 160px 100px  160px;
-    color: #757575;
-    font-size: 15px;
+.skill-container {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+#skill-d {
+  padding: 10px 160px 100px 160px;
+  color: #757575;
+  font-size: 15px;
+  text-align: center;
+}
+
+.skill-disc {
+  color: #757575;
+  font-size: 16px;
+}
+
+/* Resume */
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 26px;
+}
+
+.item-title {
+  color: #474747;
+}
+
+.sub-title {
+  color: #757575;
+  margin-top: -10px;
+}
+
+.item-disc {
+  color:  #757575;
+  font-size: 16px;
+  
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding-top: 20px;
 }
