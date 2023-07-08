@@ -139,3 +139,12 @@ main{
 .info-disc{
     color: #181818;
 }
+
+/* skill  */
+
+#skill-d{
+    padding: 10px 160px 100px  160px;
+    color: #757575;
+    font-size: 15px;
+    text-align: center;
+}
